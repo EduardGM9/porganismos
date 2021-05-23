@@ -11,9 +11,7 @@ html{
     font-family: "tipografiaroboto", sans-serif;
 }
 
-*{
-    box-sizing: border-box;
-}
+
 
 h5, h6{
     font-size: 18px;

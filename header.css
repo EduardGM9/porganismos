@@ -1,0 +1,45 @@
+@font-face {
+    font-family: tipografiaroboto;
+    src: url(./Fonts/roboto-regular-webfont.woff2) format(woff2), url(./Fonts/roboto-regular-webfont.woff) format(woff);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "tipografiaroboto", sans-serif;
+}
+
+
+header{ 
+    display: flex;
+    background-color: #F8F8F8;
+    font-size: 18px;
+   
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+.menuPrincipal{
+    flex-grow: 2;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    width: 2000px;
+    
+
+
+}
+.logo{
+    
+    flex-grow: 0.1;
+    width: 70px;
+    height: 68px;
+}

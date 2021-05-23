@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: tipografiaroboto;
+    src: url(./Fonts/roboto-regular-webfont.woff2) format(woff2), url(./Fonts/roboto-regular-webfont.woff) format(woff);
+}
+
+
+html{
+    font-family: "tipografiaroboto", sans-serif;
+    background-color: #E5E5E5;
+}
+*{
+    box-sizing: border-box;
+}
+
+.superior{
+    display: flex;
+}
+
+.edificio{
+    width: 690px;
+    height: 356px;
+    
+}
+
+.texto_edificio{
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.inferior{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.ciudad{
+    width: 690px;
+    height: 356px;
+}
+
+.texto_ciudad{
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+
+}

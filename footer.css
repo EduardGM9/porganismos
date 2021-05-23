@@ -1,0 +1,96 @@
+
+
+
+@font-face {
+    font-family: tipografiaroboto;
+    src: url(./Fonts/roboto-regular-webfont.woff2) format(woff2), url(./Fonts/roboto-regular-webfont.woff) format(woff);
+}
+
+
+html{
+    font-family: "tipografiaroboto", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h5, h6{
+    font-size: 18px;
+}
+h5, ul{
+    margin-top: 0px;
+}
+h6{
+    margin-bottom: 0px;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #2385E0;
+    color: white;
+    font-size: 18px;
+    padding: 20px
+
+    
+}
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+.superior{
+    display: flex;
+
+}
+
+/* REDES */
+.redes {
+    flex-grow: 0.3;
+}
+.redes_titulo {
+    font-weight: bold;
+}
+.redes_twitter {
+}
+.redes_pinterest {
+}
+.redes_facebook {
+}
+
+/* ACERCA DE */
+.acerca {
+    flex-grow: 2;
+}
+.acerca_titulo {
+    font-weight: bold;
+}
+.acerca_garantia {
+}
+.acerca_inversores {
+}
+.acerca_historia {
+}
+
+/* TERMINOS */
+.terminos {
+    flex-grow: 0.5;
+}
+.terminos_titulo {
+    font-weight: bold;
+}
+.terminos_cookies {
+}
+.terminos_politica {
+}
+.terminos_condiciones {
+}
+.terminos_avisos {
+}
+
+/* COPYRIGHT */
+.copyright {
+    text-align: center;
+}

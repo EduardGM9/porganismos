@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover{
+    color: red;
+    
+}
+
+nav{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
